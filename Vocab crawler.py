@@ -3,6 +3,8 @@
 Created on Wed Oct 23 21:10:34 2019
 
 @author: Arek
+
+Simple website crawler to collect German vocabulary into Excel file for printing.
 """
 
 import requests
