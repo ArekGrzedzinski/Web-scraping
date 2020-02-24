@@ -31,8 +31,6 @@ def crawlURL(path):
 
 
 s = requests.Session()
-pl=1 # proxy language, starting with French
-#setProxy(pl)
 setUserAgent(10)
 
 s.headers.update({'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/web'})
